@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/trybg">
+
+
+    <Button
+        android:text="BACK"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttons"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:layout_width="550dp"
+        android:layout_height="1030dp"
+        android:id="@+id/imageView"
+        android:scaleType="fitXY"
+
+        android:layout_above="@+id/save" />
+
+
+    <ImageView
+        android:id="@+id/out"
+        android:scaleType="matrix"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_alignTop="@id/imageView"
+        android:layout_alignBottom="@id/imageView"
+        android:layout_alignLeft="@id/imageView"
+        android:layout_alignRight="@id/imageView"
+        />
+
+    <Button
+        android:text="SAVE"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttons"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/back" />
+
+    <Button
+        android:text="ADD PIC"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/frame"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttons"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

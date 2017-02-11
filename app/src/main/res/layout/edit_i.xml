@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/trybg">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        >
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:id="@+id/backButton"
+            android:src="@drawable/back"
+            android:background="@null"
+            android:layout_gravity="left"
+            android:clickable="true"
+            android:onClick="some_method"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:id="@+id/saveButton"
+            android:src="@drawable/tick"
+            android:background="@null"
+            android:layout_gravity="top"
+            android:clickable="true"
+            android:layout_alignBottom="@+id/backButton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+
+        <ImageView
+            android:id="@+id/viewImage"
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:scaleType="fitXY"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toRightOf="@+id/backButton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center" /><![CDATA[
+
+
+
+        ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/fill"
+        android:layout_toStartOf="@+id/fill" />
+
+
+
+        Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detect"
+        android:id="@+id/detect"
+        android:background="@null"
+        android:layout_below="@+id/viewImage"
+        android:layout_toRightOf="@+id/effectsButton"
+        android:layout_toEndOf="@+id/effectsButton" />
+
+
+    ]]>
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id ="@+id/ro1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="None"
+                android:background="@drawable/round"
+                android:padding="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <Button
+                android:id ="@+id/ro2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round2"
+                android:padding="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <Button
+                android:id ="@+id/ro3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:background="@drawable/round3"
+                android:padding="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <Button
+                android:id ="@+id/ro4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round4"
+                android:padding="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <Button
+                android:id ="@+id/ro5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round5"
+                android:padding="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <Button
+                android:id ="@+id/ro6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round6"
+                android:padding="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <Button
+                android:id ="@+id/ro7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round7"
+                android:padding="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <Button
+                android:id ="@+id/ro8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round8"
+                android:padding="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <Button
+                android:id ="@+id/ro9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round9"
+                android:padding="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id ="@+id/ro10"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round10"
+                android:padding="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id ="@+id/ro11"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round11"
+                android:padding="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id ="@+id/ro12"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round12"
+                android:padding="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id ="@+id/ro13"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round13"
+                android:padding="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+</LinearLayout>
